@@ -21,10 +21,6 @@ http.createServer((request, response) =>{
     <td>94</td>
   </tr>
 </table> </body></html>`);
-
-  if
 }).listen(port);
-
-if
 
 console.log('Server is running.');
