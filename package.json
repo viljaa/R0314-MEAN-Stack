@@ -1,0 +1,22 @@
+{
+  "name": "r0314-mean-stack",
+  "version": "1.0.0",
+  "description": "Workshops on course R0314 MEAN-stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interwebzwizardi/R0314-MEAN-Stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interwebzwizardi/R0314-MEAN-Stack/issues"
+  },
+  "homepage": "https://github.com/interwebzwizardi/R0314-MEAN-Stack#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
