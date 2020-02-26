@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>Weather in Helsinki</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <h1 class="title">Weather in Helsinki</h1>
+        <div id="output">
+            <table id="data_table"></table>
+        </div>
+        <button id="refreshBtn" onclick="refresh()">Refresh</button>
+    </div>
+    <script src="client.js"></script>
+</body>

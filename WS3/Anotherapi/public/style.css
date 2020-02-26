@@ -1,0 +1,44 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Girassol&display=swap');
+
+/*Elements*/
+#container{
+    text-align: center;
+}
+
+#output{
+    font-family: 'DM Sans';
+}
+
+#data_table{
+    display: inline-table;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    width: 150px;
+}
+
+#refreshBtn{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0px 0px 0px;
+    height:45px;
+    width: 100px;
+}
+
+#refreshBtn:focus{
+    outline: 0;
+}
+
+/*Text*/
+.title{
+    margin:250px 0px 20px 0px;
+    font-family: 'Girassol';
+    font-size: 55px;
+}
