@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Head included from partials-->
+    <%- include ('../partials/head')%>
+</head>
+
+<body class="container">
+
+    <header>
+        <!--Header included from partials-->
+        <%- include ('../partials/header')%>
+    </header>
+    <main>
+        <div class="jumbotron">
+          <!--Content passed from server.js-->
+            <h1><%=new_heading%></h1>
+            <p><%=new_paragraph%></p>
+        </div>
+    </main>
+
+    <footer>
+      <!--Footer icluded from partials-->
+      <%- include ('../partials/footer')%>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Head included from partials-->
+    <%- include ('../partials/head')%>
+</head>
+
+<body class="container">
+
+    <header>
+        <!--Header included from partials-->
+        <%- include ('../partials/header')%>
+    </header>
+    <main>
+        <div class="jumbotron">
+          <table>
+            <% users.forEach((user) => {%>
+              <!--If -condition for filtering data-->
+              <% if (user.name != 'Gary' && user.age <50) {%>
+                <tr>
+                  <td><%=user.name%></td>
+                  <td><%=user.age%></td>
+                </tr>
+              <%};%>
+            <%});%>
+
+          </table>
+        </div>
+    </main>
+
+    <footer>
+      <!--Footer icluded from partials-->
+      <%- include ('../partials/footer')%>
+    </footer>
+</body>
+
+</html>
