@@ -34,7 +34,8 @@ app.post('/submit', (req,res)=>{
 
     // Create Connection Object
     const client = new mongoClient(uri,{
-        useNewUrlParser: true
+        useNewUrlParser: true,
+        /*useUnifiedTopology: true --- For some reason this crashes node when used with insert query*/
     });
 
     // Create json object for the new user
@@ -48,19 +49,58 @@ app.post('/submit', (req,res)=>{
         const collection = client.db('harjoitusDB').collection('users');
 
         if (err) throw err;
-
+        // Make qurey that inserts new data into DB
         collection.insertOne(newUser, (err, r)=>{
             console.log(r.insertedCount);
+
+            if (r.insertedCount > 0){
+                res.sendFile(__dirname + '/public/registered.html');
+            }
+            else if (err){
+                throw err
+            };
         });
 
         client.close();
     });
-
-    res.send('User registered to database!');
 });
 
 app.post('/queryDB', (req,res)=>{
-    res.send('Tietokantakysely');
+
+    // Get data from the recieved form
+    let email = req.body.email;
+    let password = req.body.password;
+
+    // Create Connection Object
+    const client = new mongoClient(uri,{
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    });
+
+    // Connect to DB
+    client.connect(err=>{
+        const collection = client.db('harjoitusDB').collection('users');
+
+        if (err) throw err;
+        // Query to DB
+        collection.find({'email':email, 'password': password}).count((err,r)=>{
+            console.log('Found matches: ' + r);
+
+            if (r==1){
+                res.sendFile(__dirname + '/public/loginSuccess.html');
+            }
+            else if (r==0){
+                res.sendFile(__dirname + '/public/loginDenied.html');
+            }
+            else{
+                console.log('Error, found multiple matches.');
+            };
+
+        });
+
+        client.close();
+    });
+    
 });
 
 //Port config
