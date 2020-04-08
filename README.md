@@ -2,14 +2,14 @@
  R0314 MEAN-Stack course repository, related to my studies.<br>
  
  ## Deployments on the course:
- * Individual assignment 1 - Guestbook App:  https://vj-guestbookapp.herokuapp.com/
+ * **Individual assignment 1 - Guestbook App:**  https://vj-guestbookapp.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-GuestbookAPP <br><br>
      
- * Individual assignment 2 - Guestbook App with EJS: https://vj-guestbookapp-ejs.herokuapp.com/
+ * **Individual assignment 2 - Guestbook App with EJS:** https://vj-guestbookapp-ejs.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-MEAN-GuestbookEJS <br><br>
      
- * MongoDB exercise 1 - MongoDB Interface: https://vj-mongodb-exercise1.herokuapp.com/
+ * **MongoDB exercise 1 - MongoDB Interface:** https://vj-mongodb-exercise1.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-MEAN-Stack/tree/master/MongoDB-harjoitus <br><br>
      
- * Workshop 3 exercise - Weather app: https://vj-ws3-weatherapp.herokuapp.com/
+ * **Workshop 3 exercise - Weather app:** https://vj-ws3-weatherapp.herokuapp.com/
      * Soyrce code: https://github.com/viljaa/R0314-MEAN-Stack/tree/master/WS3
