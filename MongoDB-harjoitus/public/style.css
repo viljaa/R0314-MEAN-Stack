@@ -11,6 +11,16 @@
     margin: 12% 0 2% 0;
 }
 
+#formTitle{
+    font-size: 400%;
+}
+
+.subTitle{
+    font-size: 15px;
+    opacity: 75%;
+    margin: 0 0 1% 0;
+}
+
 .defaultLink{
     color: green;
 }

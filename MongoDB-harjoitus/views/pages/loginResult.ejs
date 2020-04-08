@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <%- include ('../partials/defaultHead')%>
+</head>
+<body>
+    <div class="container">
+        <% if (data.matches == 1){%>
+            <%- include ('../partials/loginSuccess')%>
+        <%} else if (data.matches == 0){%>
+            <%- include ('../partials/loginDenied')%>
+        <%};%>
+    </div>
+</body>

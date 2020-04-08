@@ -11,7 +11,10 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="pageTitle">Access denied, email or password doesn't match!</h1>
-        <a class="defaultLink" href="/form.html">Return to homepage</a>
+        <% if (data.matches == 1){%>
+            <%- include ('../partials/submitDenied')%>
+        <%} else if (data.matches == 0){%>
+            <%- include ('../partials/submitSuccess')%>
+        <%};%>
     </div>
 </body>
