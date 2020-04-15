@@ -1,0 +1,19 @@
+<head>
+    <title>Airbnb REST-API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="pageTitle">Airbnb listing data REST-API</h1>
+        <h4>API for fetching Airbnb listing data from MongoDB dataset</h4>
+        <h2>HTTP-methods:</h2>
+        <ul>
+            <li>GET one listing with id route: <b>/api/getListing/&lt;<i>add id</i>&gt;</b></li>
+            <li>GET all listings route (shows 20 first results): <b>/api/getListings</b></li>
+            <li>POST new listing to DB route: <b>/api/addListing/id=&lt;<i>add id</i>&gt;/name=&lt;<i>add name</i>&gt;/country=&lt;<i>add country</i>&gt;</b></li>
+            <li>DELETE listing from DB: <b>/api/deleteListing/&lt;<i>add id</i>&gt;</b></li>
+            <li>PATCH - update existing listing: <b>/api/updateListing/id=&lt;<i>add id</i>&gt;/name=&lt;<i>add name</i>&gt;/country=&lt;<i>add country</i>&gt;</b></li>
+        </ul>
+    </div>
+</body>
