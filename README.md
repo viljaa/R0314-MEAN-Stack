@@ -8,6 +8,9 @@
  * **Individual assignment 2 - Guestbook App with EJS:** https://vj-guestbookapp-ejs.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-MEAN-GuestbookEJS <br><br>
      
+ * **Individual assignment 3 - REST API with Mongoose and MongoDB sample Airbnb dataset:** https://vj-restapi-mongoose.herokuapp.com/
+     * Source code: https://github.com/viljaa/R0314-MEAN-Stack/tree/master/REST-API-Mongoose
+     
  * **MongoDB exercise 1 - MongoDB Interface:** https://vj-mongodb-exercise1.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-MEAN-Stack/tree/master/MongoDB-harjoitus <br><br>
      
