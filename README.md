@@ -2,6 +2,9 @@
  R0314 MEAN-Stack course repository, related to my studies.<br>
  
  ## Deployments on the course:
+ * **Full-stack Airbnb MongoDB listing database ReactGUI:**  https://vj-airbnb-reactgui.herokuapp.com/
+     * Source code: https://github.com/viljaa/AirbnbMongoDB-ReactGUI <br><br>
+ 
  * **Individual assignment 1 - Guestbook App:**  https://vj-guestbookapp.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-GuestbookAPP <br><br>
      
