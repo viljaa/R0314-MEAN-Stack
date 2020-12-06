@@ -8,7 +8,7 @@
  * **Individual assignment 1 - Guestbook App:**  https://vj-guestbookapp.herokuapp.com/
      * Source code: https://github.com/viljaa/R0314-GuestbookAPP <br><br>
      
- * **Individual assignment 2 - Guestbook App with EJS:** https://vj-guestbookapp-ejs.herokuapp.com/
+ * **Individual assignment 2 - Guestbook App with EJS:
      * Source code: https://github.com/viljaa/R0314-MEAN-GuestbookEJS <br><br>
      
  * **Individual assignment 3 - REST API with Mongoose and MongoDB sample Airbnb dataset:** https://vj-restapi-mongoose.herokuapp.com/
